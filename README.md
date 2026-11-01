@@ -210,3 +210,23 @@ Recommended quick-run changes:
 - Keep only one entry in `ARCH_XLEN_CONFIGS`.
 - Keep only one method in `ALL_METHODS`, or run the script with `--method
   fuzzgpu`.
+
+
+## Citation
+
+If you find our work useful, please consider citing:
+
+```bibtex
+@inproceedings {320689,
+author = {Zibo Gao and Jie Wang and Qihang Zhou and Lixiao Shan and Junjie Hu and Xiaoqi Jia and Zhiqiang Lv},
+title = {Fuzzing {Open-Source} {GPU} Hardware with {SIMT} Program Generation},
+booktitle = {35th USENIX Security Symposium (USENIX Security 26)},
+year = {2026},
+isbn = {978-1-939133-58-8},
+address = {Baltimore, MD},
+pages = {2465--2484},
+url = {https://www.usenix.org/conference/usenixsecurity26/presentation/gao-zibo},
+publisher = {USENIX Association},
+month = aug
+}
+```
